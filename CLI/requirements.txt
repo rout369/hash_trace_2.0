@@ -1,6 +1,26 @@
-scikit-learn>=1.3.0
-pandas>=1.5.0
-numpy>=1.21.0
-joblib>=1.2.0
-cryptography>=3.4.0
-pycryptodome>=3.10.0
+numpy
+pandas
+scipy
+scikit-learn
+joblib
+
+# Hashing / crypto libraries
+argon2-cffi
+bcrypt
+passlib
+pycryptodome
+cryptography
+
+# Hashing algorithms (synthetic dataset)
+mmh3
+xxhash
+blake3
+
+# CLI + formatting
+rich
+colorama
+termcolor
+
+# Optional utilities
+tqdm
+python-dateutil
